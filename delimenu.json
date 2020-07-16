@@ -1,0 +1,28 @@
+[	{"ID": "Seeded Challah",
+  "IMG": "Images/Challahwhole.jpg",
+  "ItmNmbr": 100,
+  "Price": 20.00,
+  "Count": 100
+},
+{
+  "ID": "Smoked Fish",
+  "IMG": "Images/SmokedFish.jpg",
+  "ItmNmbr": 101,
+  "Price": 20.00,
+  "Count": 100
+},
+{
+  "ID": "Latke",
+  "IMG": "Images/Latketit.jpeg",
+  "ItmNmbr": 102,
+  "Price": 20.00,
+  "Count": 100
+},
+{
+  "ID": "Gradllax",
+  "IMG": "Images/Gradlaxplatter.jpg",
+  "ItmNmbr": 103,
+  "Price": 20.00,
+  "Count": 100
+}
+]

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head class="header">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css" />
+    <script src="site.js" async></script>
+    <title> -Deli Desires- </title>
+</head>
+<body>
+    <header><h1 class="content"><img src="Images/Workingbanner.jpg" /></h1></header>
+    <div class="container">
+        <div id="error"></div>
+        <form id="orderinfo" style="text-align: center" action="/" method="get">
+            <div>
+                <label for="name"></label>
+                <input id="name" type="text" name="ordername" placeholder="Name for the order" required>
+            </div>
+            <div>
+                <label for="email"></label>
+                <input id="email" type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div>
+                <label for="address"></label>
+                <input id="address" class="controls" type="text" name="address" placeholder="Address for Delivery" required>
+            </div>
+            <div id="map"></div>
+            <div>
+                <label for="date">Preferred Date for order:</label>
+                <input id="date" type="date" placeholder="MM-DD" name="dateorder" required>
+            </div>
+            <div>
+                <label for="time">Preferred Time:</label>
+                <input id="time" type="time" min="9:00" max="20:00" name="timeorder" required>
+            </div>
+            <button type="submit">Submit before ordering to save your place</button>
+        </form>
+       <h2><div>Menu for <span id="datetime"></span>:</div></h2>
+    </div>
+        <div class="container content-section">
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Seeded Challah</span>
+                    <img class="shop-item-image" src="Images/Challahwhole.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$20.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Smoked Fish Dip</span>
+                    <img class="shop-item-image" src="Images/SmokedFish.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$20.00</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Half Dozen Latkes</span>
+                    <img class="shop-item-image" src="Images/Latketit.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$20.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Gravlax Platter</span>
+                    <img class="shop-item-image" src="Images/Gradlaxplatter.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$20.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    <div class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </div>
+</body>
+</html>
